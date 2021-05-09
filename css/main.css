@@ -1,0 +1,156 @@
+/* Extra styles */
+
+html {
+	scroll-behavior: smooth;
+}
+
+section:first-child {
+	padding-top: 130px;
+}
+
+section {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+footer {
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 2px 2px 15px 0 rgba(25, 25, 25, 20%);
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+
+/* Home */
+
+.home h1 {
+	font-size: 3rem;
+}
+
+.home p {
+	font-size: 20px;
+}
+
+/* Partners */
+.partners .bg-light {
+	padding: 25px;
+}
+
+.partners img {
+	padding: 5px;
+}
+
+.partners img {
+	padding-left: 10px;
+}
+
+/* Services */
+
+.services .card {
+	width: 300px;
+	padding-top: 20px;
+}
+
+
+.services .card img {
+	width: 120px;
+}
+
+.services .col-6 {
+	padding-bottom: 50px;
+}
+
+.services-info i {
+	color: green;
+}
+
+/* Prices */
+
+.prices .text-info {
+	font-size: 3rem;
+}
+
+.prices ul {
+	text-align: left !important;
+	font-size: 16px;
+}
+
+.prices .fa-check {
+	color: green;
+}
+
+.prices .badge {
+	font-size: 13px;
+}
+
+/* quests */
+
+.quests .text-secondary {
+	font-size: 
+}
+
+/* video */
+
+.video .col-12 {
+	position: relative;
+}
+
+.video .col-12 div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* testimonials */
+
+.carousel-item img {
+	width: 150px !important;
+	border-radius: 50%;
+}
+
+.testimonials .card {
+	background: transparent !important;
+	border: none !important;
+}
+
+.testimonials p {
+	width: 90%;
+	padding-left: 10%;
+	font-size: 18px;
+}
+
+/* About */
+
+.about .card {
+	border: none !important;
+}
+
+.about .card-footer {
+	background: transparent !important;
+}
+
+.about .card-img-top {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.about .card img {
+	transition: 0.5s;
+}
+
+.about .card-img-top:hover img {
+	transform: scale(1.2);
+}
